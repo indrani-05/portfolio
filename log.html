@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in form</title>
+    <style>
+        /* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Center the form */
+body {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form styling */
+form {
+    background-color: #d6f0ff; /* light blue */
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Form elements */
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Submit button styling */
+button {
+    background-color: #28a745; /* green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+    </style>
+</head>
+<body>
+    <form>
+        <b>LOG IN YOUR A/C:</b>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter your email">
+        </div><div>
+            <label for="password">Password</label>
+            <input id="password" type="number" placeholder="Enter your password">
+        </div>
+        <div>
+            <button action="submit.php">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
